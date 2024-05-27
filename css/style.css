@@ -32,6 +32,9 @@ header{
 .col-30{
     width: 30%;
 }
+.col-40{
+    width: 40%;
+}
 .col-50{
     width: 50%;
 }
@@ -52,8 +55,8 @@ header{
    text-align: center;
 }
 .content-main{
-    height: 350px;
-    border: 1px dashed black;
+    padding: 70px;
+    
 }
 .content-sm{
     height: 600px;
@@ -87,7 +90,7 @@ header{
     padding: 30px 0px;
 }
 .bg-lgrey{
-    background-color: rgba(128, 128, 128, 0.469);
+    background-color: rgba(128, 128, 128, 0.095);
     padding: 30px 0px;
 }
 .bg-darkgrey{
@@ -160,21 +163,38 @@ button{
 .text-right{
     text-align: right;
 }
+/* padding */
 .py-10{
     padding: 10px 0px;
-}
-.mb-25{
-    margin-bottom: 25px;
 }
 .px-50{
     padding: 0px 50px;
 }
+/* margin */
 .mt-15{
     margin-top: 15px;
 }
-h1{
-    font-size: 40px;
+.mt-35{
+    margin-top: 35px;
 }
+.mt-50{
+    margin-top: 35px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+/* lineheight */
 .lineh-25{
     line-height: 25px;
 }
+.lineh-45{
+    line-height: 45px;
+}
+/* fontsize */
+.fs-17{
+    font-size: 17px;
+}
+.fs-40{
+    font-size: 40px;
+}
+
