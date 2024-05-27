@@ -64,18 +64,17 @@ header{
    text-align: center;
 }
 .content-footer{
-    height: 400px;
+    text-align: center;
+    padding: 10px;
 }
 .content-sf{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
-    background-color: rgb(98, 248, 183);
+    background-color:#23272A;
 }
 .content-button{
-    background-color: pink;
-    border: 1px dashed black;
+   margin-bottom: 40px;
 }
 /* background e colori */
 .bg-jumbotron{
@@ -94,7 +93,7 @@ header{
     padding: 30px 0px;
 }
 .bg-darkgrey{
-    background-color: rgb(35, 34, 34);
+    background-color: #23272A;
     padding: 30px 0px;
 }
 .lblue{
@@ -119,7 +118,6 @@ header{
 }
 .bg-darkgrey:first-of-type{
     padding: 5px 0px 25px 0px;
-    margin-bottom: 1px;
 }
 .bg-darkgrey:last-of-type{
     padding: 15px 0px 0px 0px;
@@ -167,6 +165,11 @@ button{
     list-style-type: none;
     text-align: center;
 }
+ul{
+    list-style-type: none;
+    text-align: left;
+    font-size: 13px;
+}
 .text-right{
     text-align: right;
 }
@@ -200,10 +203,16 @@ button{
 .lineh-25{
     line-height: 25px;
 }
+.lineh-30{
+    line-height: 30px;
+}
 .lineh-45{
     line-height: 45px;
 }
 /* fontsize */
+.fs-10{
+    font-size: 10px;
+}
 .fs-17{
     font-size: 17px;
 }
@@ -213,4 +222,24 @@ button{
 .fs-40{
     font-size: 40px;
 }
+.blue{
+    color: #5765F2;
+}
+.white{
+    color: white;
+}
+.bg-ita{
+    background-image: url('../img/ita.png');
+    background-size: contain;
+    background-repeat:no-repeat ;
+    padding: 10px;
+    margin-left: 55px;
+    margin-top: 20px;
 
+}
+hr{
+    background-color: #5765F2;
+    height: 1px;
+    border: #23272A;
+    margin-bottom: 10px;
+}
