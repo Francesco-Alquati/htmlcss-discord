@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: rgba(87, 173, 202, 0.705);
+    height: 382px;
+} 
+/* CLASSI DI LAYOUT  */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ /* grandezza colonne */
+.col-15{
+    width: 15%;
+}
+.col-20{
+    width: 20%;
+}
+.col-30{
+    width: 30%;
+}
+.col-50{
+    width: 50%;
+}
+.col-60{
+    width: 60%;
+}
+.col-80{
+    width: 80%;
+}
+/* CLASSI DI STILE */
+/* content  */
+.content-header{
+    padding: 5px 5px;
+    background-color: rgb(207, 163, 53);
+    border: 1px dashed black;
+}
+.content-sh{
+    background-color: rgb(215, 118, 223);
+    height: 270px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+.content-main{
+    height: 350px;
+    border: 1px dashed black;
+}
+.content-sm{
+    height: 600px;
+    border: 1px dashed black;
+    background-color: green;
+}
+.content-footer{
+    height: 400px;
+}
+.content-sf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(98, 248, 183);
+}
+.content-button{
+    background-color: pink;
+    border: 1px dashed black;
+}
+/* background e colori */
+.bg-darkblue{
+    background-color: rgb(13, 13, 155);
+    padding: 30px 0px;
+}
+.bg-white{
+    background-color: white;
+    padding: 30px 0px;
+}
+.bg-lgrey{
+    background-color: rgba(128, 128, 128, 0.469);
+    padding: 30px 0px;
+}
+.bg-darkgrey{
+    background-color: rgb(35, 34, 34);
+}
+.lblue{
+    background-color: rgb(58, 159, 248);
+}
+.pink{
+    background-color: pink;
+}
+.darkpink{
+    background-color: rgb(225, 113, 113);
+}
+.watergreen{
+    background-color: rgb(42, 157, 147);
+}
+/* classi composte  */
+.content-footer.darkpink{
+    border-radius: 5px;
+    border: 1px dashed black;
+}
+.content-footer.watergreen{
+    border: 1px dashed white;
+}
+.bg-darkgrey:first-of-type{
+    padding: 5px 0px 25px 0px;
+    margin-bottom: 1px;
+}
+.bg-darkgrey:last-of-type{
+    padding: 15px 0px 0px 0px;
+}
+#main-menu li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+/* Classi di utility */
+button{
+    padding: 0px 5px;
+    text-align: center;
+    background-color: pink;
+    border: none;
+}
+#main-menu{
+    list-style-type: none;
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.py-10{
+    padding: 10px 0px;
+}
