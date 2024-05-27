@@ -44,6 +44,9 @@ header{
 .col-80{
     width: 80%;
 }
+.col-100{
+    width: 100%;
+}
 /* CLASSI DI STILE */
 /* content  */
 .content-header{
@@ -56,12 +59,9 @@ header{
 }
 .content-main{
     padding: 70px;
-    
 }
 .content-sm{
-    height: 600px;
-    border: 1px dashed black;
-    background-color: green;
+   text-align: center;
 }
 .content-footer{
     height: 400px;
@@ -156,6 +156,13 @@ button{
     border-radius: 20px;
     text-decoration: none;
 }
+.btn-lblue{
+    background-color: #5765F2;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
 #main-menu{
     list-style-type: none;
     text-align: center;
@@ -178,10 +185,16 @@ button{
     margin-top: 35px;
 }
 .mt-50{
-    margin-top: 35px;
+    margin-top: 50px;
 }
 .mb-25{
     margin-bottom: 25px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.m-35-170{
+    margin: 35px 170px;
 }
 /* lineheight */
 .lineh-25{
@@ -193,6 +206,9 @@ button{
 /* fontsize */
 .fs-17{
     font-size: 17px;
+}
+.fs-22{
+    font-size: 22px;
 }
 .fs-40{
     font-size: 40px;
