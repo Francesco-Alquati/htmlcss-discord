@@ -22,7 +22,6 @@ header{
 .inline-block{
     display: inline-block;
 }
-
 .wave{
     background-image: url('../img/wave.svg');
     background-size: cover;
@@ -41,9 +40,6 @@ header{
 }
 .col-40{
     width: 40%;
-}
-.col-50{
-    width: 50%;
 }
 .col-60{
     width: 60%;
@@ -103,32 +99,13 @@ header{
     background-color: #23272A;
     padding: 30px 0px;
 }
-.lblue{
-    background-color: rgb(58, 159, 248);
+.blue{
+    color: #5765F2;
 }
-.pink{
-    background-color: pink;
-}
-.darkpink{
-    background-color: rgb(225, 113, 113);
-}
-.watergreen{
-    background-color: rgb(42, 157, 147);
+.white{
+    color: white;
 }
 /* classi composte  */
-.content-footer.darkpink{
-    border-radius: 5px;
-    border: 1px dashed black;
-}
-.content-footer.watergreen{
-    border: 1px dashed white;
-}
-.bg-darkgrey:first-of-type{
-    padding: 5px 0px 25px 0px;
-}
-.bg-darkgrey:last-of-type{
-    padding: 15px 0px 0px 0px;
-}
 #main-menu li{
     display: inline-block;
     margin: 5px 20px;
@@ -200,6 +177,7 @@ hr{
 .rotation{
     transform: scaleY(-1);
 }
+/* text align  */
 .text-right{
     text-align: right;
 }
@@ -232,9 +210,6 @@ hr{
 .m-35-170{
     margin: 35px 170px;
 }
-.mr-10{
-    margin-right: 100px;
-}
 /* lineheight */
 .lineh-25{
     line-height: 25px;
@@ -261,10 +236,4 @@ hr{
 .fs-40{
     font-size: 40px;
 }
-/* colori  */
-.blue{
-    color: #5765F2;
-}
-.white{
-    color: white;
-}
+
