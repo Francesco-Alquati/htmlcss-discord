@@ -172,9 +172,9 @@ ul{
     font-size: 13px;
 }
 .language{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 120px;
-    font-size: 10px;
+    font-size: 13px;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -185,6 +185,11 @@ ul{
 .language p{
     color:white;
     margin-left: 10px;
+}
+.icons{
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
 }
 hr{
     background-color: #5765F2;
