@@ -22,12 +22,7 @@ header{
 .inline-block{
     display: inline-block;
 }
-.wave{
-    background-image: url('../img/wave.svg');
-    background-size: cover;
-    height: 100px;
-    filter: invert(100%) sepia(0%) saturate(4252%) hue-rotate(157deg) brightness(114%) contrast(91%)
-}
+
  /* grandezza colonne */
 .col-15{
     width: 15%;
@@ -173,9 +168,6 @@ hr{
     height: 1px;
     border: #23272A;
     margin-bottom: 10px;
-}
-.rotation{
-    transform: scaleY(-1);
 }
 /* text align  */
 .text-right{
